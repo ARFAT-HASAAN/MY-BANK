@@ -7,7 +7,7 @@ btn.addEventListener('click', function() {
     const passfield = password.value;
 
     if (emailfield == "arfat@gmail.com" && passfield == "secret") {
-        window.location.href = "http://127.0.0.1:5500/banking.html";
+        window.location.href = "http://127.0.0.1:5500/banking.html"
     } else {
         console.log("your email/pass id wrong");
     }
